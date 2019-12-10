@@ -1,10 +1,9 @@
-import React from 'react';
-import {StatusBar, Platform} from 'react-native';
-import Home from './src/screens/Home';
+import { StatusBar, Platform } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import Description from './src/screens/Description';
-import {createAppContainer} from 'react-navigation';
-import {createStackNavigator} from 'react-navigation-stack';
+import Home from './src/screens/Home';
 
 const App = createStackNavigator(
   {
